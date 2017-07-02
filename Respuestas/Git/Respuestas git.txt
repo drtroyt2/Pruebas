@@ -1,0 +1,20 @@
+1. Узнать глобальные настройки git config --list
+2. Задать имя пользователя git config --global user.name "Your Name"
+3. Задать почтовый ящик пользователя git config --global user.email "your_email@whatever.com"
+4. Инициализировать репозиторий git init
+5. Добавить файл в репозиторий
+	git add hello.html
+	git commit -m "First Commit"
+6. Проверка состояния репозитория git status
+7. Получить незафиксированные изменения в репозотрории
+	Изменить файл
+	git status
+8. Проиндексировать изменения 
+	git add hello.html
+	git status
+9. Снять индексацию изменений
+	git reset
+10. Добавить все изменения в текущем каталоге git add
+11. Посмотреть логи изменений в одну строчку git log --pretty=oneline
+12. Посмотреть только последние 2 изменения git log --pretty=oneline --max-count=2
+
